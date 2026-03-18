@@ -1,16 +1,53 @@
+# Dependencies
 node_modules/
+
+# Expo
 .expo/
 dist/
+web-build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+
+# Debug logs
 npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Build artifacts
+*.tgz
+
+# Native build folders
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Keystore and signing
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
 *.orig.*
-web-build/
 
 # macOS
 .DS_Store
+*.pem
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
